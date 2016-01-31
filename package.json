@@ -1,0 +1,26 @@
+{
+  "name": "people-list",
+  "version": "1.0.0",
+  "description": "A simple tool to store people",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssnielsen/people-list.git"
+  },
+  "author": "Søren Sønderby Nielsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssnielsen/people-list/issues"
+  },
+  "homepage": "https://github.com/ssnielsen/people-list#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "kerberos": "0.0.18",
+    "mongodb": "^2.1.4",
+    "mongoose": "^4.3.7"
+  }
+}

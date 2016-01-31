@@ -32,9 +32,9 @@ app.post('/persons', function(req, res) {
     })
 });
 
-app.get('/persons/search/:query', function(req, res) {
+app.get('/persons/search/:name', function(req, res) {
     var query = {
-        name: /req.param('query')/
+        name: new RegExp(req.params['name'], 'i')
     };
 
     Person.find(query, function(err, persons) {
